@@ -812,18 +812,6 @@
       },
       "product-custom-form": {
         "type": "product-custom-form",
-        "blocks": {
-          "bd51bd98-149d-400a-9f44-fbbda40e5114": {
-            "type": "tab_html",
-            "settings": {
-              "title": "HTML tab",
-              "raw_content": "<p class=\"line-item-property__field\">\n        <label for=\"central-focus-location\">Central focus location<\/label><br>\n        <input required class=\"required\" id=\"central-focus-location\" type=\"text\" name=\"properties[Central focus location]\">\n      <\/p>\n      <p class=\"line-item-property__field\">\n        <label for=\"personal-message-to-be-engraved-on-the-legend-or-markers-to-include-optional\">Personal message to be engraved on the legend or markers to include<\/label><br>\n        <textarea id=\"personal-message-to-be-engraved-on-the-legend-or-markers-to-include-optional\" name=\"properties[Personal message to be engraved on the legend or markers to include (optional)]\"><\/textarea>\n      <\/p>\n      <p class=\"line-item-property__field\">\n        <label for=\"custom_photo\">Photo (JPG or PNG)<\/label>\n        <input required id=\"custom_photo\" type=\"file\" name=\"properties[Photo]\">\n      <\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "bd51bd98-149d-400a-9f44-fbbda40e5114"
-        ],
         "settings": {
           "image_layout": "stacked",
           "product_sticky_enable": true,
