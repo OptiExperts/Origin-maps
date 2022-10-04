@@ -203,7 +203,18 @@
     <span class="js-qty__adjust js-qty__adjust--plus quantity__plus" tabindex="0">{% render "icon-plus" %}</span>
   </div>
 
-    
+      <p class="line-item-property__field">
+        <label for="your-name">Your name</label>
+        <input required class="required" id="your-name" type="text" name="properties[Your name]">
+      </p>
+      <p class="line-item-property__field">
+        <label for="your-name">Your name</label>
+        <input required class="required" id="your-name" type="text" name="properties[Your name]">
+      </p>
+      <p class="line-item-property__field">
+        <label for="custom_photo">Photo (JPG or PNG)</label>
+        <input required id="custom_photo" type="file" name="properties[Photo]">
+      </p>
 
   <div class="product__submit {% if buybutton_setting %}product__submit--spb{% endif %}" data-product-id="{{product.id}}">
     <div class="product__submit__buttons">
