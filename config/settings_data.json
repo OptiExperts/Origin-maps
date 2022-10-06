@@ -819,7 +819,7 @@
           "show_share_buttons": true,
           "product_show_vendor": false,
           "show_payment_button": true,
-          "show_cart_bar": true,
+          "show_cart_bar": false,
           "cart_bar_position": "bottom",
           "tabs_enable": false,
           "enable_video_looping": false
